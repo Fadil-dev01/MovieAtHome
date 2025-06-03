@@ -1,0 +1,33 @@
+<!DOCTYPE html login>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.33">
+    <title>Login Nonton Film</title>
+    <link rel="stylesheet" href="tampilan.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Buat akun sebelum nonton</h2>
+        <form action="loading.html" method="get">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="password">Buat Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="genre">Pilih Genre Favorit:</label>
+            <select id="genre" name="genre">
+                <option value="aksi">Aksi</option>
+                <option value="komedi">Komedi</option>
+                <option value="romantis">Romantis</option>
+                <option value="horor">Horor</option>
+                <option value="anime">Anime</option>
+                <option value="fantasi">Fantasi</option>
+            </select>
+
+            <button type="submit" class="login-button">Masuk</button>
+        </form>
+    </div>
+</body>
+</html>

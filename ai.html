@@ -1,0 +1,39 @@
+<!DOCTYPE html ai>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Film Finder</title>
+    <link rel="stylesheet" href="tampilan.css">
+</head>
+<body>
+    <div class="ai-container">
+        <h2>Rekomendasi Film dengan Bantuan AI</h2>
+        <form>
+            <label for="genres">Genre favorit kamu:</label>
+            <select id="genres" name="genres" multiple>
+                <option value="aksi">Aksi</option>
+                <option value="romantis">Romantis</option>
+                <option value="komedi">Komedi</option>
+                <option value="horor">Horor</option>
+                <option value="drama">Drama</option>
+                <option value="anime">Anime</option>
+                <option value="fantasi">Fantasi</option>
+                <option value="misteri">Misteri</option>
+            </select>
+
+            <label for="negara">Kamu ingin menonton film dari negara mana?</label>
+            <select id="negara" name="negara">
+                <option value="indonesia">Indonesia</option>
+                <option value="amerika">Amerika / Hollywood</option>
+                <option value="jepang">Jepang</option>
+                <option value="china">China</option>
+            </select>
+
+            <label for="cerita">Ceritakan keinginanmu menonton film seperti apa:</label>
+            <textarea id="cerita" name="cerita" rows="5" placeholder="Contoh: Aku ingin film petualangan di masa depan yang penuh misteri..."></textarea>
+
+            <button type="submit" class="ai-submit">Cari Film</button>
+        </form>
+    </div>
+</body>
+</html>
