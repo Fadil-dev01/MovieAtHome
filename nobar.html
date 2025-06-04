@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Nonton Bareng</title>
+    <link rel="stylesheet" href="tampilan.css">
+</head>
+<body>
+    <div class="nobar-container">
+        <h1>Nonton Bareng Teman</h1>
+
+        <div class="video-section">
+            <video controls>
+                <source src="contoh-video.mp4" type="video/mp4">
+                Browser kamu tidak mendukung tag video.
+            </video>
+        </div>
+
+        <div class="info-section">
+            <form class="join-form">
+                <label for="username">Nama Kamu:</label>
+                <input type="text" id="username" placeholder="Masukkan nama kamu" required>
+
+                <label for="roomlink">Tautan Ruangan:</label>
+                <input type="text" id="roomlink" value="https://filmku.com/nobar/abc123" readonly>
+
+                <button type="submit">Gabung</button>
+            </form>
+        </div>
+
+        <div class="chat-box">
+            <h3>Obrolan Teman</h3>
+            <div class="chat-messages">
+                <p><strong>Tina:</strong> Yuk mulai filmnya!</p>
+                <p><strong>Rian:</strong> Gas!</p>
+            </div>
+            <input type="text" class="chat-input" placeholder="Ketik pesan...">
+        </div>
+    </div>
+</body>
+</html>
